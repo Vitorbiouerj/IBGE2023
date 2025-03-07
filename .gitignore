@@ -1,0 +1,48 @@
+# Ignorar diretórios específicos
+geo/
+.venv/
+.ipynb_checkpoints/
+
+# Ignorar arquivos específicos
+*.ipynb
+*.zip
+
+# Ignorar arquivos comuns do sistema operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.py[cod]
+
+# Ignorar arquivos de log
+*.log
+*.out
+*.err
+
+# Ignorar dependências
+venv/
+env/
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Ignorar arquivos temporários do editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Ignorar arquivos de build e distribuição
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Ignorar arquivos do Jupyter Notebook de saída temporária
+*.nbconvert/
+
